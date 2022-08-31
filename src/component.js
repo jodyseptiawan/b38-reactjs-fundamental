@@ -1,14 +1,19 @@
-import React from "react";
-
 // import component Header
+import Header from "./components/header";
 
 function Component() {
   return (
     //   Code Here
-    <div></div>
+    <>
+      <Header />
+      <h3>halo</h3>
+      <Content />
+    </>
   );
 }
 
-// Create a new component here
+function Content() {
+  return <div>ini content</div>;
+}
 
 export default Component;
